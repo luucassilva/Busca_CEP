@@ -16,10 +16,6 @@ function consultaCep(){
             $("#titulo_cep").html("CEP " + response.cep);
             $(".cep").show();
             $(".barra-progresso").hide();
-            //$("#logradouro").html(response.logradouro);
-            //document.getElementById("logradouro").innerHTML = response.logradouro;
-
-            //alert(response.logradouro);
         }
     })
 }
